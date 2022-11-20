@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LogMessage;
+using System;
 using WelcomeMessageNameSpace;
 
 namespace CSharpNamespace
@@ -7,10 +8,12 @@ namespace CSharpNamespace
     {
         static void Main(string[] args)
         {
-            WelcomeMessage message = new WelcomeMessage();
-            message.GreetMessage();
+            //WelcomeMessage message = new WelcomeMessage();
+            //message.GreetMessage();
+            //Console.ReadLine();
 
-            Console.ReadLine();
+            Notification notification = new Notification();
+            notification.Notify();
         }
     }
 }
