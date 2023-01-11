@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpNamespace", "CSharpNamespace\CSharpNamespace.csproj", "{E42CEB0A-7F25-4CF0-82F5-81B1562F98F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogMessage", "LogMessage\LogMessage.csproj", "{391E43AE-937B-44B8-A597-9643DBE14F6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogMessage", "LogMessage\LogMessage.csproj", "{391E43AE-937B-44B8-A597-9643DBE14F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathematicalclient", "Mathematicalclient\Mathematicalclient.csproj", "{7A87D94C-B09A-4EBB-B5C1-E354C732758A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{391E43AE-937B-44B8-A597-9643DBE14F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{391E43AE-937B-44B8-A597-9643DBE14F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{391E43AE-937B-44B8-A597-9643DBE14F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A87D94C-B09A-4EBB-B5C1-E354C732758A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A87D94C-B09A-4EBB-B5C1-E354C732758A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A87D94C-B09A-4EBB-B5C1-E354C732758A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A87D94C-B09A-4EBB-B5C1-E354C732758A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
